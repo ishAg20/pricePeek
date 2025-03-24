@@ -19,7 +19,7 @@ const Navbar = () => {
             alt="logo"
           />
           <p className="font-spaceGrotesk text-[21px] text-secondary font-bold">
-            price<span className="text-red-600">Peek</span>
+            price<span className="text-blue-600">Peek</span>
           </p>
         </Link>
         <div className="flex items-center gap-5">
