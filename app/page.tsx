@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Searchbar from "@/components/Searchbar";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
               Track price trends, analyze product insights, and find the best
               deals to make informed purchases. 🚀
             </p>
+            <Searchbar />
           </div>
         </div>
       </section>
