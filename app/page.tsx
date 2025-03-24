@@ -1,6 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
 import Searchbar from "@/components/Searchbar";
+import CarouselHome from "@/components/CarouselHome";
 
 const Home = () => {
   return (
@@ -27,6 +27,7 @@ const Home = () => {
             </p>
             <Searchbar />
           </div>
+          <CarouselHome />
         </div>
       </section>
       <section
